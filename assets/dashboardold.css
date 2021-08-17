@@ -1,0 +1,271 @@
+    .main{
+      /* Dashboard */
+      position: relative;
+      width: 1440px;
+      height: 900px;
+      overflow-y: scroll;
+      background: #F7FAFC;
+
+    } 
+
+/* Sidebar */
+.s-layout {
+    position: absolute;
+    width: 256px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #1666C5;
+    }
+
+    .main-content{
+          /* Frame 1 */
+    position: absolute;
+    width: 1184px;
+    height: 2336px;
+    left: 256px;
+    top: 0px;
+    overflow-y: scroll;        
+   }
+
+   .top{
+     /* Group 53 */
+    position: absolute;
+    width: 1440px;
+    height: 85px;
+    left: -256px;
+    top: 0px;
+   }
+
+   .search{
+        /* search */
+    height: 18px;
+    width: 18px;
+    left: 634px;
+    top: 36px;
+    position: absolute;    
+    right: 54.72%;    
+    bottom: 36.47%
+   }
+
+   .close{
+     /* close */
+  position: absolute;
+  visibility: hidden;
+  width: 18px;
+  height: 18px;
+  right: 788px;
+  top: calc(50% - 18px/2 + 2.5px);
+
+   }
+
+   .profile{
+     /* Frame 12309 */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 1125px;
+    height: 40px;
+    left: 284px;
+    top: 22px;
+
+   }
+
+  
+   .profile-content{
+     /* Group 30442 */
+      position: static;
+      width: 211px;
+      height: 40px;
+      left: 914px;
+      top: 0px;
+      /* Inside Auto Layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      margin: 0px 610px;
+   }
+
+   .home{
+    position: absolute;
+    left: 81.24%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+   }
+    
+   .home-vector{
+     /* Vector */
+    position: absolute;
+    left: 99.11%;
+    right: 0%;
+    top: 47.5%;
+    bottom: 40%;
+    background: #32373B;
+   }
+
+   .profile-name{
+     /* Austine Okenu */    
+     height: 21px;
+     width: 107px;
+     left: 967px;
+     top: 10px;
+     border-radius: 4px; 
+     position: absolute;    
+     right: 4.53%;
+    
+    bottom: 22.5%;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+   }
+
+   .profile-user{
+    height: 40px;
+    width: 40px;
+    left: 914px;
+    top: 0px;
+    border-radius: 0px;  
+   }
+    
+    .profile-user-background{
+      /* Ellipse 1 */
+      height: 40px;
+      width: 40px;
+      left: 914px;
+      top: 0px;
+      border-radius: 50%;
+      position: absolute;
+      left: 81.24%;
+      right: 15.2%;
+      top: 0%;
+      bottom: 0%;
+      background: #32373B;
+    }
+
+   .profile-user-content{
+     /* AU */
+      height: 21px;
+      width: 22px;
+      left: 922px;
+      top: 9px;
+      position: absolute;
+      left: 81.96%;
+      right: 16.09%;
+      top: 22.5%;
+      bottom: 25%;    
+      font-family: Segoe UI;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 21px;
+      text-align: center;    
+      color: #FFFFFF;
+   }
+
+   .profile-user-content-vector{
+     /* Vector */
+    position: absolute;
+    left: 81.96%;
+    right: 15.91%;
+    top: 20%;
+    bottom: 20%;
+   }
+
+   .profile-setting{
+    height: 24px;
+    width: 24px;
+    left: 1082px;
+    top: 8px;
+    border-radius: 0px;
+
+   }
+
+   .profile-setting-vector{
+    height: 19.200000762939453px;
+    width: 18.666229248046875px;
+    left: 1084.6668701171875px;
+    top: 10.4000244140625px;
+    border-radius: 0px;
+    /* Vector */
+    position: absolute;
+    left: 96.41%;
+    right: 1.93%;
+    top: 26%;
+    bottom: 26%;
+    background: #009FB7;
+    background-image: url('../assets/icons/settings.png');
+    
+   }
+
+   .profile-setting-vector-box{
+    height: 24px;
+    width: 24px;
+    left: 1082px;
+    top: 8px;
+    border-radius: 0px; 
+       
+   }
+
+ .institutional-dashboard-box{
+ /* Frame 12308 */
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: static;
+width: 304px;
+height: 32px;
+left: 0px;
+top: 4px;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 610px;
+  } 
+
+  .institutional-dashboard{
+    /* Insitutional Dashboard */
+  position: static;
+  width: 264px;
+  height: 32px;
+  left: 40px;
+  top: 0px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+  }
+
+  .institutional-home-dashboard{
+    height: 24px;
+    width: 24px;
+    left: 0px;
+    top: 4px;
+    border-radius: 0px;
+
+  }
+
+  .menu-details{
+    height: 13px;
+    width: 15px;
+    left: 4px;
+    top: 10px;
+    border-radius: 0px;
+
+  }
